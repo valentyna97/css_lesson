@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+
+:root {
+    font-size: 20px;
+    font-family: 'Niramit', sans-serif;
+}
+h1 {
+    color: violet;
+}
+h2 {
+    color: blue;
+}
+#brown {
+    color: brown;
+}
+.yellow {
+    color: yellow;
+}
+* {
+    border: 1px solid black;
+}
+div >p {
+    background-color: grey;
+}
+div ~ p {
+    font-family: monospace;
+}
+p:hover {
+    background-color: red;
+}
+p::first-letter {
+    font-size: 3rem;
+}
+p::after {
+    content:"!";
+}
